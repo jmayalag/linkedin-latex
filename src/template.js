@@ -56,15 +56,15 @@ const publication = () => `
 %
 \\explanationdetail{
 \\smallskip 
-\\textbf{Jordan Ayala} and \\textbf{Miguel García}, "Technical analysis strategy optimization using a machine learning approach in stock market indices," \\emph{2021 Elsevier}, Knowledge Based Systems.
+\\textbf{Jordan Ayala} and \\textbf{Miguel García}, \`\`Technical analysis strategy optimization using a machine learning approach in stock market indices,'' \\emph{2021 Elsevier}, Knowledge Based Systems.
 }
 %
 `;
 
-const skills = () => `
+const skills = ({skills}) => `
 \\explanationdetail{
 \\smallskip 
-Strategic planning; warehouse logistics; package logistics; stakeholder communication; technical leadership; scrum; e-commerce; Python; Kotlin; Java; JavaScript; TypeScript; GoLang; Rust; SQL; Shopify; Kafka; AWS; GCP; Tensorflow; Machine Learning; React Native; React; Next.js; Spring; MySql; Redis; Mongo
+${skills.join('; ')}
 }`;
 
 const end = () => `

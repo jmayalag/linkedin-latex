@@ -18,7 +18,19 @@ function replaceBullet(string) {
   return string.replace(/^[^\w\s]+/, "");
 }
 
+function getSkills() {
+  const allSkills = info.experience.flatMap((it) => it.skills);
+  const skills = new Set([...info.topSkills, ...allSkills]);
+  return Array.from(skills).map((it) => it.replace(/\s*\(.*\)/, ""));
+}
+
 function buildTex(path) {
+  console.log("Saving to " + path);
+  if (fs.existsSync("main.tex")) {
+    console.log("Override with main.tex");
+    fs.copyFileSync("main.tex", path);
+    return;
+  }
   fs.writeFileSync(path, "", "utf8");
   const append = (string) => fs.appendFileSync(path, string, "utf8");
 
@@ -30,7 +42,8 @@ function buildTex(path) {
     .slice(0, 5)
     .forEach((it) => {
       const description = it.description.slice(0, 4).map(replaceBullet);
-      append(experience({ ...it, description }));
+      const locationType = it.locationType === "Hybrid" ? "" : it.locationType;
+      append(experience({ ...it, description, locationType }));
     });
 
   append(section("Education"));
@@ -44,9 +57,12 @@ function buildTex(path) {
   append(publication());
 
   append(section("Skills"));
-  append(skills());
+  append(skills({ skills: getSkills() }));
 
   append(end());
 }
 
-buildTex("cv2.tex");
+console.log(process.argv);
+const path = process.argv[2] || "cv.tex";
+
+buildTex(path);
