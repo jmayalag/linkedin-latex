@@ -1,0 +1,308 @@
+{
+  "profileLink": "https://linkedin.com/in/jordan-ayala/",
+  "name": "Jordan Ayala",
+  "headline": "Technical Lead | Full Stack Expert | Data Scientist",
+  "about": "I’m a seasoned Technical Lead and Software Engineer with 10 years of experience. I specialize in leading and mentoring teams in developing products that help people in everyday life, be it ordering food, having a home workout experience, or helping operations in shipping warehouses.",
+  "topSkills": [
+    "Software Development",
+    "Technology Leadership",
+    "Machine Learning",
+    "Data Analysis",
+    "Analytical Skills"
+  ],
+  "experience": [
+    {
+      "title": "Technical Lead",
+      "company": "BairesDev",
+      "employmentType": "Full-time",
+      "date": "Feb 2022 - Mar 2024",
+      "location": "San Francisco, California, United States",
+      "locationType": "Remote",
+      "description": [
+        "Led a team of 10 talented engineers in building a platform that handles the operation of several warehouses across the US (Kotlin, NestJs, Typescript, Javascript, React).",
+        "• Consolidated multiple data sources to Google Big Query Platform allowing efficient analytical and operational reporting, leading to a 60% reduction in response times.",
+        "• Built real-time streaming applications (Kafka, Kotlin) that integrated various microservices and multiple warehouse providers, ensuring seamless operational functionality and efficiency.",
+        "• Mentored a team of engineers, providing guidance and expertise in software architecture enhancement and optimization."
+      ],
+      "skills": [
+        "Technology Leadership",
+        "Software Architecture"
+      ]
+    },
+    {
+      "title": "Lead Mobile Engineer",
+      "company": "Luke's Local",
+      "employmentType": "Freelance",
+      "date": "Mar 2019 - Feb 2022",
+      "location": "San Francisco Bay Area",
+      "locationType": "Remote",
+      "description": [
+        "Led the development of an online food ordering application (iOS & Android) focusing on enhancing user experience and operational efficiency (React Native, Typescript, Redux).",
+        "• Integrated advanced analytics into the application, enabling data-driven strategies to track and improve user satisfaction using Firebase and Mixpanel.",
+        "• Led the development of a successful referral program that encouraged user engagement and growth.",
+        "• Innovated by designing and implementing a companion application to efficiently track inbound supplies, streamlining the supply chain process.",
+        "• Refactored the application architecture, resulting in significantly improved performance and reduced loading times, enhancing customer satisfaction.",
+        "• Automated the deployment pipeline, ensuring continuous and seamless delivery of application updates, maintaining high standards of quality and reliability."
+      ],
+      "skills": [
+        "React Native",
+        "Payments",
+        "Analytics",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Senior Mobile Engineer",
+      "company": "Voice",
+      "employmentType": "Full-time",
+      "date": "Apr 2021 - Jan 2022",
+      "location": "United States",
+      "locationType": "Remote",
+      "description": [
+        "Built the application for an NFT marketplace that is carbon neutral, easy to use on the EOS blockchain serving thousands of customers (Android, Kotlin).",
+        "The application was developed with Kotlin, and leveraged the use of SOLID principles, MVVM architecture paired with material design.",
+        "• Led the development the authentication infrastructure.",
+        "• Led the integration of KYC services, significantly reducing the number of bot accounts.",
+        "• Designed and implemented the NFT multimedia viewer."
+      ],
+      "skills": [
+        "Android Development",
+        "Blockchain"
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Consejo Nacional de Ciencia y Tecnología-CONACYT",
+      "employmentType": "Freelance",
+      "date": "Jan 2021 - Jan 2022",
+      "location": "Paraguay",
+      "locationType": "Hybrid",
+      "description": [
+        "Contributed in the development of a machine learning platform that creates healthy recipes (Keras, Python, NextJS).",
+        "• Analyzed the molecular structure and macronutritional values of ingredients.",
+        "• Development of a web application to create target recipes and obtain healthy alternatives."
+      ],
+      "skills": [
+        "Machine Learning",
+        "Python"
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Universidad Americana Paraguay",
+      "employmentType": "Freelance",
+      "date": "Jun 2020 - Sep 2021",
+      "location": "Asunción, Paraguay",
+      "locationType": "Hybrid",
+      "description": [
+        "Contributed to the creation of a platform to assist a team of experts in the early diagnosis of diabetic retinopathy (Keras, Python, NextJS).",
+        "• Led the research multiple state-of-the-art algorithms for object detection and designed experiments to train and validate machine learning models.",
+        "• Built a machine learning classification model with eye fundus images.",
+        "• Built a REST API to provide diabetic retinopathy detection (Python, FastAPI, Keras).",
+        "• Developed a web platform to acquire patients images and provide classification (NextJS, Typescript, Tailwind)."
+      ],
+      "skills": [
+        "Software Architecture",
+        "Machine Learning",
+        "Python"
+      ]
+    },
+    {
+      "title": "Android Team Lead",
+      "company": "SweatWorks",
+      "employmentType": "Full-time",
+      "date": "Sep 2019 - Mar 2021",
+      "location": "Washington, United States",
+      "locationType": "Remote",
+      "description": [
+        "Led a team of Android and QA Engineers in building and launching a fitness app (Android, Kotlin).",
+        "The app acts a companion for a specialized exercise bike, offering on-demand workout classes like cycling, yoga, and strength training.",
+        "• Built integrations with Bluetooth powered devices to track the workout performance of users.",
+        "• Integrated multiple streaming platforms to improve the user experience during workouts. (Mux, FeedFM)",
+        "• Built a Proof of concept App for Android TV.",
+        "• Mentored engineers on how to improve app performance and architecture."
+      ],
+      "skills": [
+        "Technology Leadership",
+        "Android Development"
+      ]
+    },
+    {
+      "title": "Mobile Consultant",
+      "company": "Freelancer",
+      "employmentType": "Contract",
+      "date": "Apr 2018 - Aug 2019",
+      "location": "Switzerland",
+      "locationType": "Remote",
+      "description": [
+        "Built a privacy oriented VPN mobile application for a Health Related NPO.",
+        "Code reuse was optimized by creating native shared libraries for React Native.",
+        "• Created a cross-platform native middleware implementing the Wireguard VPN Protocol (Go, Rust).",
+        "• Developed Native Android (Java) and iOS (Swift) apps.",
+        "• Built a cross-platform App in React Native, interacting with the Native VPN Middleware (Rust)."
+      ],
+      "skills": [
+        "Rust (Programming Language)",
+        "Go (Programming Language)",
+        "React Native"
+      ]
+    },
+    {
+      "title": "IT Consultant",
+      "company": "Konecta S.A.",
+      "employmentType": "",
+      "date": "Dec 2016 - Jan 2018",
+      "location": "Paraguay",
+      "locationType": "",
+      "description": [
+        "• Developed integrations for a AS/400 mainframe, integrating RPG codebase with modern Java solutions."
+      ],
+      "skills": [
+        "Payments",
+        "Spring Framework",
+        "Java",
+        "JavaScript",
+        "HTML5",
+        "HTML",
+        "PostgreSQL",
+        "Business Intelligence",
+        "Analytical Skills",
+        "Data Structures"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Multisoft",
+      "employmentType": "",
+      "date": "Feb 2015 - Nov 2016",
+      "location": "Paraguay",
+      "locationType": "",
+      "description": [
+        "• Developed a Location-Aware Android Application for Logistics and Tracking.",
+        "• Led the migration of a Legacy Management Reporting System (PowerBuilder) to modern Web App (Django, Express, JQuery).",
+        "• Server administration of multiple Linux Servers (CentOS)."
+      ],
+      "skills": [
+        "Spring Framework",
+        "Python",
+        "JavaScript",
+        "HTML5",
+        "PostgreSQL",
+        "Android Development",
+        "Analytical Skills",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Internship",
+      "company": "Núcleo de Investigación y Desarrollo Tecnológico",
+      "employmentType": "",
+      "date": "Dec 2014 - Feb 2015",
+      "location": "Paraguay",
+      "locationType": "",
+      "description": [
+        "As an intern, I worked on multiple projects based on Digital Image Processing.",
+        "• Worked on a Digital Image Processing System (Java EE) and implemented multiple morphological transformations with ImageJ.",
+        "• Developed a System for Early Detection of Skin Cancer using Digital Image Processing (Java, ImageJ)."
+      ],
+      "skills": [
+        "Java",
+        "Data Structures"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Universidad Nacional de Asunción",
+      "degree": "Engineer's degree",
+      "field": "Computer Software Engineering",
+      "skills": [
+        "C",
+        "Machine Learning",
+        "Stock Market Analysis"
+      ],
+      "date": "2012 - 2016",
+      "description": [
+        "Majoring in Software Engineer, I learned the skills necessary as an engineer to tackle all the challenges I encountered in my professional life. My thesis on a intelligent stock market trading system was published on a major scientific journal.",
+        "• Received Full Tuition Scholarship for academic merit."
+      ],
+      "other": []
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Convolutional Neural Networks",
+      "organization": "Coursera",
+      "date": "Issued Jan 2021",
+      "skills": [
+        "Keras",
+        "Machine Learning"
+      ],
+      "other": [
+        "Issued Jan 2021",
+        "Credential ID D7VQR7D8Z72V"
+      ]
+    },
+    {
+      "title": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+      "organization": "Coursera",
+      "date": "Issued Dec 2020",
+      "skills": [
+        "Keras",
+        "Machine Learning"
+      ],
+      "other": [
+        "Issued Dec 2020",
+        "Credential ID XZQLG9E29QQ4"
+      ]
+    },
+    {
+      "title": "Neural Networks and Deep Learning",
+      "organization": "Coursera",
+      "date": "Issued Dec 2020",
+      "skills": [
+        "Keras",
+        "Machine Learning"
+      ],
+      "other": [
+        "Issued Dec 2020",
+        "Credential ID QS64BJ4DD69M"
+      ]
+    },
+    {
+      "title": "Structuring Machine Learning Projects",
+      "organization": "Coursera",
+      "date": "Issued Dec 2020",
+      "skills": [
+        "Keras",
+        "Machine Learning"
+      ],
+      "other": [
+        "Issued Dec 2020",
+        "Credential ID JWS56FVC66NE"
+      ]
+    },
+    {
+      "title": "Examination for the Certificate of Competency in English (ECCE)",
+      "organization": "Cambridge Michigan",
+      "date": "",
+      "skills": [
+        "Keras",
+        "Machine Learning"
+      ],
+      "other": []
+    },
+    {
+      "title": "Intro to Python for Data Science",
+      "organization": "DataCamp",
+      "date": "",
+      "skills": [
+        "Keras",
+        "Machine Learning"
+      ],
+      "other": [
+        "Credential ID 95c2c05932d9e630f3929a3c8f418d91d8800c9b"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "linkedin-latex",
+  "version": "1.0.0",
+  "description": "Repo to generate Latex and PDF using json.",
+  "main": "index.js",
+  "scripts": {
+    "latex": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
