@@ -10,6 +10,14 @@ const {
   end,
 } = require("./template");
 
+/**
+ * Replace bullet or space at start
+ * @param {string} string
+ */
+function replaceBullet(string) {
+  return string.replace(/^[^\w\s]+/, "");
+}
+
 function buildTex(path) {
   fs.writeFileSync(path, "", "utf8");
   const append = (string) => fs.appendFileSync(path, string, "utf8");
@@ -17,14 +25,19 @@ function buildTex(path) {
   append(header());
   append(section("Experience"));
 
-  info.experience.slice(0,6).forEach((it) => {
-    append(experience());
-  });
+  info.experience
+    .filter((it) => !it.company.includes("CONACYT"))
+    .slice(0, 5)
+    .forEach((it) => {
+      const description = it.description.slice(0, 4).map(replaceBullet);
+      append(experience({ ...it, description }));
+    });
 
   append(section("Education"));
 
   info.education.forEach((it) => {
-    append(education());
+    const description = it.description.map(replaceBullet);
+    append(education({ ...it, description }));
   });
 
   append(section("Publications"));

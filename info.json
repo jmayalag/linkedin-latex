@@ -59,8 +59,7 @@
       "location": "United States",
       "locationType": "Remote",
       "description": [
-        "Built the application for an NFT marketplace that is carbon neutral, easy to use on the EOS blockchain serving thousands of customers (Android, Kotlin).",
-        "The application was developed with Kotlin, and leveraged the use of SOLID principles, MVVM architecture paired with material design.",
+        "Built the application for an NFT marketplace that is carbon neutral, easy to use on the EOS blockchain serving over 10.000 customers (Android, Kotlin, MVVM, OOP).",
         "• Led the development the authentication infrastructure.",
         "• Led the integration of KYC services, significantly reducing the number of bot accounts.",
         "• Designed and implemented the NFT multimedia viewer."
@@ -115,8 +114,7 @@
       "location": "Washington, United States",
       "locationType": "Remote",
       "description": [
-        "Led a team of Android and QA Engineers in building and launching a fitness app (Android, Kotlin).",
-        "The app acts a companion for a specialized exercise bike, offering on-demand workout classes like cycling, yoga, and strength training.",
+        "Led a team of Android and QA Engineers in building and launching a fitness app offering on-demand workout classes like cycling, yoga, and strength training (Android, Kotlin).",
         "• Built integrations with Bluetooth powered devices to track the workout performance of users.",
         "• Integrated multiple streaming platforms to improve the user experience during workouts. (Mux, FeedFM)",
         "• Built a Proof of concept App for Android TV.",
@@ -135,8 +133,7 @@
       "location": "Switzerland",
       "locationType": "Remote",
       "description": [
-        "Built a privacy oriented VPN mobile application for a Health Related NPO.",
-        "Code reuse was optimized by creating native shared libraries for React Native.",
+        "Led the development a privacy focused VPN application for a NPO (React Native, Typescript).",
         "• Created a cross-platform native middleware implementing the Wireguard VPN Protocol (Go, Rust).",
         "• Developed Native Android (Java) and iOS (Swift) apps.",
         "• Built a cross-platform App in React Native, interacting with the Native VPN Middleware (Rust)."
@@ -223,8 +220,8 @@
       ],
       "date": "2012 - 2016",
       "description": [
-        "Majoring in Software Engineer, I learned the skills necessary as an engineer to tackle all the challenges I encountered in my professional life. My thesis on a intelligent stock market trading system was published on a major scientific journal.",
-        "• Received Full Tuition Scholarship for academic merit."
+        "• Received Full Tuition Scholarship for academic merit.",
+        "• Thesis on intelligent stock market trading systems was published on a major scientific journal."
       ],
       "other": []
     }
