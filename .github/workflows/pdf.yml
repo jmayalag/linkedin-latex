@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run Latex template
-        run: npm run latex
+        run: npm run latex cv/cv.tex
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:

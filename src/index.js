@@ -63,6 +63,9 @@ function buildTex(path) {
 }
 
 console.log(process.argv);
-const path = process.argv[2] || "cv.tex";
+const path = process.argv[2];
+if (!path) {
+  throw new Error("Path is required");
+}
 
 buildTex(path);
