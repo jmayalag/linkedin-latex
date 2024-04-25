@@ -18,6 +18,14 @@ function replaceBullet(string) {
   return string.replace(/^[^\w\s]+/, "");
 }
 
+/**
+ * Escape latex characters
+ * @param {string} string
+ */
+function escapeLatex(string) {
+  return string.replace(/([%$#&{}_~^\\])/g, "\\$1");
+}
+
 function getSkills() {
   const allSkills = info.experience.flatMap((it) => it.skills);
   const skills = new Set([...info.topSkills, ...allSkills]);
@@ -41,7 +49,10 @@ function buildTex(path) {
     .filter((it) => !it.company.includes("CONACYT"))
     .slice(0, 5)
     .forEach((it) => {
-      const description = it.description.slice(0, 4).map(replaceBullet);
+      const description = it.description
+        .slice(0, 4)
+        .map(replaceBullet)
+        .map(escapeLatex);
       const locationType = it.locationType === "Hybrid" ? "" : it.locationType;
       append(experience({ ...it, description, locationType }));
     });
@@ -49,7 +60,7 @@ function buildTex(path) {
   append(section("Education"));
 
   info.education.forEach((it) => {
-    const description = it.description.map(replaceBullet);
+    const description = it.description.map(replaceBullet).map(escapeLatex);
     append(education({ ...it, description }));
   });
 
@@ -62,7 +73,6 @@ function buildTex(path) {
   append(end());
 }
 
-console.log(process.argv);
 const path = process.argv[2];
 if (!path) {
   throw new Error("Path is required");
