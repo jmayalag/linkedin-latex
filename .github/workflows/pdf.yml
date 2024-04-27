@@ -28,5 +28,13 @@ jobs:
           files: |
             cv/cv.pdf
             src/info.json
+      - name: Upload to gdrive
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.CREDENTIALS }}
+          filename: "cv/cv.pdf"
+          folderId: ${{ secrets.FOLDER_ID }}
+          name: "Jordan Ayala - Resume.pdf"
+          overwrite: "true"
 permissions:
   contents: write
