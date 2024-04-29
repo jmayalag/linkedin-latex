@@ -34,7 +34,7 @@ jobs:
           credentials: ${{ secrets.CREDENTIALS }}
           filename: cv/cv.pdf
           folderId: ${{ secrets.FOLDER_ID }}
-          name: $GDRIVE_NAME
+          name: ${{ vars.GDRIVE_NAME }}
           overwrite: true
 permissions:
   contents: write
